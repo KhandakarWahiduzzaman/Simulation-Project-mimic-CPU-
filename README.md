@@ -9,4 +9,13 @@ Note:
      handling since priority queue doesn’t allow easy preemption)
 5. When a new process is added or returned from disk, compare its priority to the one on CPU
 6. Preempted if needed
-7. 
+7. Memory management - Worst Fit
+   '''C++
+   struct MemoryItem {
+    unsigned long long itemAddress;
+    unsigned long long itemSize;
+    int PID;
+};
+using MemoryUse = std::vector<MemoryItem>;
+   '''
+9. gfg
