@@ -15,6 +15,8 @@ Note:
     unsigned long long itemAddress;
     unsigned long long itemSize;
     int PID;
-};
-using MemoryUse = std::vector<MemoryItem>;```
+     };
+     using MemoryUse = std::vector<MemoryItem>;
+     ```
 9. gfg
+
